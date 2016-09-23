@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CoverFlowView">
+        <attr name="visible_item" format="integer" />
+        <attr name="reflection_height" format="fraction" />
+        <attr name="reflection_gap" format="dimension" />
+        <attr name="gravity" format="enum">
+            <enum name="top" value="0" />
+            <enum name="bottom" value="1" />
+            <enum name="center" value="2" />
+        </attr>
+        <attr name="layout_mode" format="enum">
+            <enum name="math_parent" value="0" />
+            <enum name="wrap_content" value="1" />
+        </attr>
+    </declare-styleable>
+</resources>
